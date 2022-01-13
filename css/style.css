@@ -1,0 +1,82 @@
+/* import fonts */
+@import url(/css/fonts.css);
+
+
+body{
+    background-color: #f5f4f4;
+    
+}
+nav{
+    background-color: #f5f4f4;
+    
+}
+
+
+.esquerda{
+    height: 300px;
+}
+
+span{
+    font-family: Montserrat;
+    font-size: 100px;
+    font-weight: bolder;
+
+}
+h1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 100px;
+    font-weight: bolder;
+    
+}
+h3{
+    font-family: Montserrat;
+    font-weight: bolder;
+    font-size:20px;
+    font-style: italic;
+}
+.direita{
+    display: block;
+    margin-top: 15%;
+    
+}
+
+#botao-login{
+    
+    color: white;
+    font-family: MontserratBold;
+    font-size: 25px;
+    display: auto;
+    margin-top: 30px;
+    position: -ms-page;
+    height: 50px;
+    width: 300px;
+    background-color: #0F8C3B;
+    border-radius: 20px;
+    
+}
+
+img{
+    
+    width: 200%;
+    height: 295%;
+    
+}
+
+.greenlogo{
+    color: #0F8C3B;
+}
+
+#botao-login:hover{
+    background-color: #072712;
+}
+
+.itemnavbar{
+    font-family: "MontserratBold";
+    color: black;
+    font-weight: bolder;
+}
+
+.itemnavbar:hover{
+    color: #0F8C3B;
+}
