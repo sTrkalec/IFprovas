@@ -1,0 +1,74 @@
+.card-principal {
+  background-color: rgb(211, 211, 211);
+  box-shadow: 0px 0px 41px -21px rgba(0, 0, 0, 1);
+  border-radius: 20px;
+  padding: 90px 0 20px 0;
+  height: 100%;
+}
+
+.btn-dropdown {
+  background-color: rgb(211, 211, 211);
+}
+
+.linha-padding {
+  padding: 0 150px;
+}
+
+.botao {
+  background-color: #118c3b;
+  color: white;
+  outline: #118c3b;
+}
+
+.botao:hover {
+  background-color: #118c3b;
+  color: white;
+}
+
+#greenname{
+  color: #0F8C3B;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+#blackname{
+  color: black;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.titulo{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#botaocriar{
+  background-color: #0F8C3B;
+  border-radius: 10px;
+  font-weight: bold;
+  color: white;
+}
+#dropdownMenuButton{
+  font-weight: bold;
+}
+
+#input-pesquisar{
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+#logoif{
+justify-content: center;
+}
+
+#botao{
+  background-color: #0F8C3B;
+  border-radius: 10px;
+  font-weight: bold;
+  color: white;
+}
+
+#botao:hover{
+  background-color: #093b1a;
+  }
+  
