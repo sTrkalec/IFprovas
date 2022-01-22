@@ -4,7 +4,7 @@
   background-color: rgb(211, 211, 211);
   box-shadow: 0px 0px 41px -21px rgba(0, 0, 0, 1);
   border-radius: 20px;
-  padding: 90px 0 20px 0;
+  padding: 10px 0 20px 0;
   height: 100%;
   font-family: 'Montserrat', sans-serif;
 }
@@ -14,7 +14,7 @@
 }
 
 .linha-padding {
-  padding: 0 150px;
+  padding: 0 120px;
 }
 
 .botao {
@@ -28,53 +28,61 @@
   color: white;
 }
 
-#greenname{
-  color: #0F8C3B;
+#greenname {
+  color: #0f8c3b;
   font-weight: bold;
   font-size: 40px;
 }
 
-#blackname{
+#blackname {
   color: black;
   font-weight: bold;
   font-size: 40px;
 }
 
-.titulo{
+.titulo {
   font-size: 25px;
   font-weight: bold;
 }
 
-#botaocriar{
-  background-color: #0F8C3B;
+#botaocriar {
+  background-color: #0f8c3b;
   border-radius: 10px;
   font-weight: bold;
   color: white;
 }
-#dropdownMenuButton{
+#dropdownMenuButton {
   font-weight: bold;
 }
 
-#input-pesquisar{
+#input-pesquisar {
   border-radius: 10px;
   font-weight: bold;
+  height: 130px;
 }
 
-#logoif{
-justify-content: center;
+#logoif {
+  justify-content: center;
 }
 
-#botao{
-  background-color: #0F8C3B;
+#botao {
+  background-color: #0f8c3b;
   border-radius: 10px;
   font-weight: bold;
   color: white;
 }
 
-#botao:hover{
+#botao:hover {
   background-color: #093b1a;
-  }
+}
 
-#botaodrop{
+#botaodrop {
+  border: solid 0.5px;
   font-weight: bold;
+  height: 60px;
+}
+
+#questao {
+  font-weight: normal;
+  font-size: 25px;
 }
