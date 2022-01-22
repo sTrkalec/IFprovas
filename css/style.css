@@ -4,6 +4,7 @@
 
 body{
     background-color: #f5f4f4;
+    font-family: 'Montserrat', sans-serif;
     
 }
 nav{
@@ -17,20 +18,18 @@ nav{
 }
 
 span{
-    font-family: Montserrat;
     font-size: 100px;
     font-weight: bolder;
 
 }
 h1{
-    font-family: Montserrat;
+
     font-style: normal;
     font-size: 100px;
     font-weight: bolder;
     
 }
 h3{
-    font-family: Montserrat;
     font-weight: bolder;
     font-size:20px;
     font-style: italic;
@@ -44,7 +43,6 @@ h3{
 #botao-login{
     
     color: white;
-    font-family: MontserratBold;
     font-size: 25px;
     display: auto;
     margin-top: 30px;
@@ -53,6 +51,7 @@ h3{
     width: 300px;
     background-color: #0F8C3B;
     border-radius: 20px;
+    font-weight: bold;
     
 }
 
@@ -72,7 +71,6 @@ img{
 }
 
 .itemnavbar{
-    font-family: "MontserratBold";
     color: black;
     font-weight: bolder;
 }

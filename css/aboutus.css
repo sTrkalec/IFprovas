@@ -3,7 +3,12 @@
 body, html {
     height: 100%;
     background-color: #f5f4f4;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.container{
+    font-weight: bolder;
 }
 
 #logo{
@@ -16,7 +21,6 @@ body, html {
 }
 
 .itemnavbar{
-    font-family: "MontserratBold";
     color: black;
     font-weight: bolder;
 }
@@ -63,7 +67,7 @@ body, html {
 
 #welcome {
     background-color: #e5e2e2;
-    
+
 }
  
 .greenlogo{
@@ -90,13 +94,13 @@ body, html {
     margin-top: 40px;
     color: #000000;
     font-size: 1.2em;
-    font-weight: 300;
+    font-weight: bold;
 }
 
 #welcome a {
     text-decoration: none;
     margin-right: 20px;
-    font-weight: 500;
+    font-weight: bold;
 }
 
 .link-info:hover {
@@ -108,6 +112,7 @@ body, html {
 p {
     font-size: 1.2em;
     color: #404044;
+    font-weight: bolder;
 }
 
 .row-custom {
@@ -141,6 +146,13 @@ p {
     letter-spacing: -0.04em;
     color: #0F8C3B;
 }
+
+#skills h3 {
+    letter-spacing: -0.04em;
+    color: #000000;
+    font-weight: bold;
+}
+
 
 .skill-item {
     width: 190px;
@@ -294,3 +306,4 @@ p {
         font-size: 1.8em;
     }
 }
+
