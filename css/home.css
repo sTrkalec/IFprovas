@@ -1,0 +1,71 @@
+@import url(/css/fonts.css);
+
+body, html {
+    height: 100%;
+    background-color: #f5f4f4;
+    font-family: Montserrat;
+}
+
+.titulo{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#greenname{
+  color: #0F8C3B;
+  font-weight: bold;
+}
+
+#blackname{
+  color: black;
+  font-weight: bold;
+}
+
+#botao{
+  background-color: #0F8C3B;
+  border-radius: 10px;
+  font-weight: bold;
+  color: white;
+}
+
+.card {
+  background-color: #118c3b;
+  height: 100%;
+  border-radius: 30px;
+  padding: 25px 25px;
+}
+
+.card-linha {
+  margin-top: 120px;
+}
+
+.botao-prova {
+  background-color: white;
+  
+}
+
+#meuBanco{
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#input-pesquisar{
+  border-radius: 10px;
+}
+
+.botao-prova{
+  background-color: #F2F2F2;
+  color: black;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.botao-prova:hover{
+  background-color: grey;
+}
+
+#botao:hover{
+background-color: #093b1a;
+}
+

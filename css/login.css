@@ -10,6 +10,15 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
+
+#entrar{
+    color: white;
+    text-decoration: none;
+}
+
+#entrar:hover{
+    color: #0F8C3B;
+}
 .container {
     display: flex;
     justify-content: center;
@@ -87,6 +96,7 @@ body {
     background-color: #0F8C3B;
     border: 1px solid #0F8C3B;
     transition: background-color .5s;
+    text-align: center;
 }
 .btn-second:hover {
     background-color: #fff;
