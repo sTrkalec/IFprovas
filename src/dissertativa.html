@@ -9,7 +9,7 @@
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/multipla.css">
+  <link rel="stylesheet" href="../css/dissertativ.css">
   <link rel="icon" type="image/png" sizes="16x16" href="img/IF (1).png">
   <title>IFPROVAS</title>
 </head>
@@ -25,19 +25,19 @@
     </div>
 
     <!-- PESQUISAR PROVA -->
-    <div class="row card-principal mb-5">
+    <div class="row card-principal">
       <div class="col-12 text-center my-4 ">
         <h1 class="title my-4 ">
-          <span id="greenname">IF</span><span id="blackname">PROVAS</span>
+            <span id="greenname">IF</span><span id="blackname">PROVAS</span>
         </h1>
     </div>    
       
-      <div class="row mt-0">
+      <div class="row mt-4">
         <div class="col-3"></div>
         <div class="col-8">
           <div class="row">
             <div class="col-10 text-center">
-              <h3 id="questao">Questão objetiva 01:</h3>
+              <h3 id="questao">Questão dissertativa 02:</h3>
             </div>
           </div>
         </div>
@@ -53,81 +53,44 @@
         </div>
 
         <div class="row mt-3">
-            <div class="col-11 text-center">
-                <input type="text" class="form-control text-center" placeholder="DIGITE A OPÇÃO" >
-            </div>
-
-            <div class="col-1">
-                <div>
-                    <input class="form-check-input " type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
-                  </div>
-            </div>
+          <div class="col-12 text-center">
+            <div class="dropdown" >
+                <button type="button"  class="btn dropdown-toggle" data-bs-toggle="dropdown" id="botaodrop">
+                  QUANTIDADE DE LINHAS PARA A RESPOSTA
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item text-center" href="#">1</a></li>
+                  <li><a class="dropdown-item text-center" href="#">2</a></li>
+                  <li><a class="dropdown-item text-center" href="#">3</a></li>
+                  <li><a class="dropdown-item text-center" href="#">4</a></li>
+                  <li><a class="dropdown-item text-center" href="dissertativa2.html">5</a></li>
+                  <li><a class="dropdown-item text-center" href="#">6</a></li>
+                  <li><a class="dropdown-item text-center" href="#">7</a></li>
+                  <li><a class="dropdown-item text-center" href="#">8</a></li>
+                  <li><a class="dropdown-item text-center" href="#">9</a></li>
+                  <li><a class="dropdown-item text-center" href="#">10</a></li>
+                </ul>
+              </div>
         </div>
-
-        <div class="row mt-3">
-            
-            <div class="col-11 text-center">
-                <input type="text" class="form-control text-center" placeholder="DIGITE A OPÇÃO" >
-            </div>
-
-            <div class="col-1">
-                <div>
-                    <input class="form-check-input " type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
-                  </div>
-            </div>
-        </div>
-
-        <div class="row mt-3">
-            <div class="col-11 text-center">
-                <input type="text" class="form-control text-center" placeholder="DIGITE A OPÇÃO" >
-            </div>
-
-            <div class="col-1">
-                <div>
-                    <input class="form-check-input " type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
-                  </div>
-            </div>
-        </div>
-        <div class="row mt-3">
-          <div class="col-11 text-center">
-              <input type="text" class="form-control text-center" placeholder="DIGITE A OPÇÃO" >
-          </div>
-
-          <div class="col-1">
-              <div>
-                  <input class="form-check-input " type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
-                </div>
-          </div>
       </div>
-
-        <div class="row mt-4">
-          <div class="col-6 text-center">
-            <a href="multipla-escolha.html" class="btn col-5 botaoRemover">Remover</a>
-        </div>
-        <div class="col-6 text-center">
-          <button class="btn col-5 botao">
-              Adicionar
-          </button>
-      </div>
-        </div>
 
       <div class="row mt-5">
         <div class="col-9"></div>
         <div class="col-3">
-          <a href="criandoProvaBio.html" class="btn col-12 botao" id="botao">Voltar</a>
+          <a href="sucesso.html" class="btn btn col-12" id="botao">Voltar</a>
         </div>
       </div>
 
       <div class="row mt-1">
         <div class="col-1">
-          <a href="criandoProva.html" class="btn col-12 botao" id="botao">-</a>
+          <a href="criandoProva.html" class="btn btn col-12" id="botao">-</a>
         </div>
         <div class="col-1">
-          <a href="criandoProvaBio.html" class="btn col-12 botao" id="botao">+</a>
+          <a href="criandoProva.html" class="btn btn col-12" id="botao">+</a>
         </div>
         <div class="col-7"></div>
         <div class="col-3">
-          <a href="sucesso.html" class="btn col-12 botao" id="botao">Salvar</a>
+          <a href="criandoProva.html" class="btn btn col-12" id="botao">Salvar</a>
         </div>
       </div>
   </div>
